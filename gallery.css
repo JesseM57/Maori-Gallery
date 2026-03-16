@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f7;
+}
+
+.header {
+  text-align: center;
+  margin: 1% 20%;
+  background-color: #499286;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 700px;
+}
+
+.gallery:hover {
+  border: 2px solid #499286;
+}
+
+.gallery img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
